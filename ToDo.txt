@@ -1,0 +1,21 @@
+ ----------------------------------------------------------------------
+ ToDo
+ ----------------------------------------------------------------------
+ 1. put wait for keypress in Utilities
+ 4. check body operations with strings
+ 7. revise and use logger
+ 8. add one-way
+ 9. add keep-alive processing
+ 10. convert to use new StringUtilities and CodeUtilities
+ 11. Define virtual directory root for HttpServer
+ 12. Add non-HTTP processing serverProcs
+ 13. Make file reading shared mode in getProc
+ ----------------------------------------------------------------------
+ Done
+ ----------------------------------------------------------------------
+ 2. add HttpClient.h with HttpClient class
+ 3. finish porting getMessage from HttpServer to HttpClient
+    -- client isn't handling bodies correctly yet - see 6.
+ 5. work out way to insert message processing in HttpServer
+    -- almost there, needs to be cleaned up and made easier to use
+ 6. move socket code into HttpClient and HttpServer core base class

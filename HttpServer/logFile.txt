@@ -1,0 +1,47 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Fri Jan  5 17:05:49 2018
+     Path: "C:\su\CSE687\Repository\CppHttpClientServer\HttpServer"
+     Args: *.h, *.cpp, *.cs, /s, /v, /m, /r, /f
+                                                                               
+        48 : C:\su\CSE687\Repository\CppHttpClientServer\HttpServer\HttpServer.h
+       163 : C:\su\CSE687\Repository\CppHttpClientServer\HttpServer\HttpServer.cpp
+
+      Total line count = 211
+
+
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      18
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              HttpServer.h   namespace                  HttpCommunication      32      17       9
+              HttpServer.h       class                         HttpServer      34      15       8
+              HttpServer.h    function                         HttpServer      39       2       1
+              HttpServer.h    function                        ~HttpServer      43       2       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            HttpServer.cpp    function                         getMessage      47      33       3
+            HttpServer.cpp    function                       doProcessing     102       3       1
+            HttpServer.cpp    function                        postMessage     107       4       1
+            HttpServer.cpp   namespace                  HttpCommunication      37     102       5
+            HttpServer.cpp       class                      ClientHandler      39       6       2
+            HttpServer.cpp    function                         operator()     113      25       1
+            HttpServer.cpp    function                   makeReplyMessage      82      18       2
+            HttpServer.cpp    function                               main     144      20       3
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     4 dirs
+   processed     2 files

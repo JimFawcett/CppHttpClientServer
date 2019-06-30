@@ -1,0 +1,35 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Fri Jan  5 17:05:18 2018
+     Path: "C:\su\CSE687\Repository\CppHttpClientServer\HttpClient"
+     Args: *.h, *.cpp, *.cs, /s, /v, /m, /r, /f
+                                                                               
+       104 : C:\su\CSE687\Repository\CppHttpClientServer\HttpClient\HttpClient.cpp
+
+      Total line count = 104
+
+
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1       5
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            HttpClient.cpp   namespace                  HttpCommunication      35      15       3
+            HttpClient.cpp       class                         HttpClient      42       6       2
+            HttpClient.cpp    function                        postMessage      54      20       1
+            HttpClient.cpp    function                               main      76      29       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     4 dirs
+   processed     1 files
